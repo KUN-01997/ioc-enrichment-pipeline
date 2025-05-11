@@ -15,7 +15,7 @@ This project automates the enrichment of IOCs like IPs, hashes, and domains. It 
 - **Notifications:** Slack API, SMTP Email
 
 ### 🧪 Sample Output (Markdown)
-# IOC Enrichment Report – IP: 8.8.8.8
+#### IOC Enrichment Report – IP: 8.8.8.8
 
 - **VirusTotal Reputation:** 0
 - **Country (VT):** US
