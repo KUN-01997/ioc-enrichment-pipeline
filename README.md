@@ -26,11 +26,12 @@ This project automates the enrichment of IOCs like IPs, hashes, and domains. It 
 - **Timestamp:** 2025-05-10
 
 ### 💻 Sample Code Snippet
+'''
 def enrich_ip_with_virustotal(ip):
     url = f"https://www.virustotal.com/api/v3/ip_addresses/{ip}"
     headers = {"x-apikey": VT_API_KEY}
     return requests.get(url, headers=headers).json()
-
+'''
 ### ✅ Outcomes
 - Reduced manual IOC triage time by 40%.
 - Produced structured enrichment reports with contextual data.
