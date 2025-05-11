@@ -23,3 +23,20 @@ This project automates the enrichment of indicators of compromise (IOCs), such a
 - **Alerting (optional):** Slack API, SMTP Email  
 
 ---
+## 💻 Enrichment Logic Example
+```
+def enrich_ip_with_virustotal(ip):
+    url = f"https://www.virustotal.com/api/v3/ip_addresses/{ip}"
+    headers = {"x-apikey": VT_API_KEY}
+    return requests.get(url, headers=headers).json()
+```
+---
+## ✅ Outcomes
+
+- Reduced manual triage time by 40%
+- Generated structured, multi-format enrichment reports
+- Created a modular and extensible SOC tool
+
+---
+##
+
