@@ -1,0 +1,11 @@
+Type,IOC,VT_Reputation,VT_Country,VT_Malicious,OTX_Pulses,Timestamp,Registrar,Name
+ip,8.8.8.8,549.0,US,0.0,0.0,2025-05-12T05:30:44.512492,,
+ip,1.1.1.1,77.0,N/A,0.0,0.0,2025-05-12T05:30:52.236527,,
+ip,45.83.64.1,-55.0,DE,12.0,50.0,2025-05-12T05:30:59.077748,,
+domain,malicious.com,-60.0,,2.0,4.0,2025-05-12T05:31:01.484090,"GoDaddy.com, LLC",
+domain,evil.net,0.0,,0.0,0.0,2025-05-12T05:31:03.622578,"Amazon Registrar, Inc.",
+domain,test.attacker.io,0.0,,0.0,0.0,2025-05-12T05:31:23.038161,"NameSilo, LLC",
+hash,44d88612fea8a8f36de82e1278abb02f,,,66.0,,2025-05-12T05:31:23.852749,,eicar.com.txt
+hash,d41d8cd98f00b204e9800998ecf8427e,,,0.0,,2025-05-12T05:31:25.252971,,android-cts-7.1_r6-linux_x86-arm.zip
+hash,fd5d4d1d5c5c5c5c5c5c5c5c5c5c5c5c,,,,,2025-05-12T05:31:25.741180,,
+hash,ecfac74bd25f4c7a8e57dc0e1a8c0f61,,,,,2025-05-12T05:31:26.210018,,

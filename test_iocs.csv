@@ -1,0 +1,11 @@
+IOC,Type
+8.8.8.8,ip
+1.1.1.1,ip
+45.83.64.1,ip
+malicious.com,domain
+evil.net,domain
+test.attacker.io,domain
+44d88612fea8a8f36de82e1278abb02f,hash
+d41d8cd98f00b204e9800998ecf8427e,hash
+fd5d4d1d5c5c5c5c5c5c5c5c5c5c5c5c,hash
+ecfac74bd25f4c7a8e57dc0e1a8c0f61,hash
