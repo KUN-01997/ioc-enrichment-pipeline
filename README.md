@@ -62,6 +62,7 @@ def enrich_ip_with_virustotal(ip):
 - `test_iocs.csv` – Sample input list of indicators
 - `ioc_enrichment_output.csv` – Enriched results
 - `ioc_report.md` – Markdown summary
+- `.env.example` - Create a .env file in the project root based on .env.example and add your API keys.
 
 ---
 
