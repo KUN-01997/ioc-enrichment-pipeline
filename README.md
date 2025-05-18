@@ -1,11 +1,11 @@
-# 🤖 Automated Alert Triage & IOC Enrichment Pipeline
+#  Automated Alert Triage & IOC Enrichment Pipeline
 
-## 📌 Overview
+##  Overview
 This project is a Python-based enrichment pipeline that ingests IPs, domains, and hashes from security alerts and enriches them with contextual threat intelligence using open-source APIs. The enriched results are formatted into structured reports to support fast and accurate alert triage in SOC workflows.
 
 ---
 
-## 🎯 Project Goals
+##  Project Goals
 - Automate enrichment of IOCs using VirusTotal, AbuseIPDB, and OTX
 - Generate structured alert summaries in CSV, Markdown, and HTML
 - Integrate alert notifications into Slack or Email
@@ -13,7 +13,7 @@ This project is a Python-based enrichment pipeline that ingests IPs, domains, an
 
 ---
 
-## 🛠 Tools & APIs Used
+##  Tools & APIs Used
 - **Python** – Primary scripting language
 - **VirusTotal API** – For file, domain, and IP enrichment
 - **AbuseIPDB API** – For IP reputation scoring
@@ -21,7 +21,7 @@ This project is a Python-based enrichment pipeline that ingests IPs, domains, an
 
 ---
 
-## 📥 Input Format
+##  Input Format
 - Input can be provided via `.csv`, `.json`, or direct string list
 - Example input:
 ```csv
@@ -32,7 +32,7 @@ IP,Type
 
 ---
 
-## 📤 Sample Enrichment Output (Markdown)
+##  Sample Enrichment Output (Markdown)
 ```markdown
 # IOC Enrichment Report – IP: 8.8.8.8
 
@@ -47,7 +47,7 @@ IP,Type
 
 ---
 
-## 💻 Enrichment Logic Example (Python)
+##  Enrichment Logic Example (Python)
 ```python
 def enrich_ip_with_virustotal(ip):
     url = f"https://www.virustotal.com/api/v3/ip_addresses/{ip}"
@@ -57,7 +57,7 @@ def enrich_ip_with_virustotal(ip):
 
 ---
 
-## 📁 Repository Artifacts
+##  Repository Artifacts
 - `enrich_iocs.py` – Python script for running enrichment
 - `test_iocs.csv` – Sample input list of indicators
 - `ioc_enrichment_output.csv` – Enriched results
@@ -66,13 +66,13 @@ def enrich_ip_with_virustotal(ip):
 
 ---
 
-## ✅ Outcomes
+##  Outcomes
 - Reduced manual enrichment workload by ~40%
 - Delivered IOC context to analysts in seconds
 - Created a reusable pipeline to plug into SIEM/SOAR platforms
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 - Build GUI front-end or Jupyter dashboard
 - Integrate with SIEM tools for auto-tagging alerts
