@@ -1,12 +1,12 @@
-# 📘 IOC Enrichment Pipeline – Analyst Playbook
+#  IOC Enrichment Pipeline – Analyst Playbook
 
-## 🎯 Purpose
+##  Purpose
 
 This playbook outlines how SOC analysts should use the Automated IOC Enrichment Pipeline to triage alerts that contain raw indicators such as IPs, domains, or file hashes. The pipeline provides contextual enrichment and risk scoring using open-source intelligence sources.
 
 ---
 
-## 🧪 Use Cases
+##  Use Cases
 
 - Triage a suspicious IP from a phishing email alert
 - Validate external connections from a critical host
@@ -14,7 +14,7 @@ This playbook outlines how SOC analysts should use the Automated IOC Enrichment 
 
 ---
 
-## 🛠 How to Use
+##  How to Use
 
 1. Place raw IOCs in `test_iocs.csv` with headers:
    ```
@@ -40,7 +40,7 @@ This playbook outlines how SOC analysts should use the Automated IOC Enrichment 
 
 ---
 
-## 🧠 Threat Intel Sources
+##  Threat Intel Sources
 
 - **VirusTotal**: 90+ AV engines and IP/domain sandboxing
 - **AbuseIPDB**: Crowdsourced IP reputation database
@@ -48,7 +48,7 @@ This playbook outlines how SOC analysts should use the Automated IOC Enrichment 
 
 ---
 
-## ✅ Analyst Outcome
+##  Analyst Outcome
 
 You should be able to:
 - Identify benign vs. high-confidence malicious IOCs
